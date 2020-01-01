@@ -14,7 +14,7 @@ hr.wp-block-mypreview-spacer {
     border: none;
     max-width: 100%;
 }
-hr.wp-block-omnyfy-spacer:not(.has-background) {
+hr.wp-block-mypreview-spacer:not(.has-background) {
 	background-color: transparent;
 }
 
