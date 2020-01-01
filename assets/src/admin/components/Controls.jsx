@@ -1,9 +1,4 @@
 /**
- * Block dependencies
- */
-import icons from './../icons.jsx';
-
-/**
  * Internal block libraries
  */
 const { _x } = wp.i18n;
