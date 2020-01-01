@@ -11,7 +11,7 @@ const { _x } = wp.i18n;
 const { Fragment, Component } = wp.element;
 const { compose } = wp.compose;
 const { InspectorControls, InspectorAdvancedControls, PanelColorSettings, AlignmentToolbar } = wp.blockEditor;
-const { PanelBody, ToggleControl, RangeControl, TextControl, TabPanel, withFallbackStyles } = wp.components;
+const { PanelBody, ToggleControl, RangeControl, TextControl, TabPanel, BaseControl, ExternalLink, withFallbackStyles } = wp.components;
 
 /**
  * Contrast checker
@@ -267,6 +267,29 @@ export default compose( applyWithColors ) ( class Inspector extends Component {
 							}
 						] }
 					/>
+					<PanelBody 
+						title={ sprintf( _x( 'Looking for Help? %s', 'panel title', 'spacer-block' ), '⚡' ) }
+						initialOpen={ false }
+					>
+						<BaseControl>
+							<p>{ _x( 'I am a full-stack developer with over five years of experience in WordPress theme and plugin development, and would love to have the opportunity to discuss your project with you.', 'upsell', 'spacer-block' ) }</p>
+							<ExternalLink 
+	                            href={ 'https://www.upwork.com/o/profiles/users/_~016ad17ad3fc5cce94/' }
+	                        >
+	                            { _x( 'Hire Me!', 'upsell', 'spacer-block' ) }
+	                        </ExternalLink>
+						</BaseControl>
+						<BaseControl
+							className="components-base-control--label-block"
+							label={ _x( 'Enjoying this block?', 'upsell', 'spacer-block' ) }
+						>
+							<ExternalLink 
+	                            href={ 'https://wordpress.org/support/plugin/container-block/reviews' }
+	                        >
+	                            { sprintf( _x( 'Why not leave this plugin a %s review on WordPress.org!', 'upsell', 'spacer-block' ), '⭐⭐⭐⭐⭐' ) }
+	                        </ExternalLink>
+						</BaseControl>
+					</PanelBody>
 				</InspectorControls>
 				<InspectorAdvancedControls>
 					<TextControl
