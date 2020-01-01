@@ -284,7 +284,7 @@ export default compose( applyWithColors ) ( class Inspector extends Component {
 							label={ _x( 'Enjoying this block?', 'upsell', 'spacer-block' ) }
 						>
 							<ExternalLink 
-	                            href={ 'https://wordpress.org/support/plugin/container-block/reviews' }
+	                            href={ 'https://wordpress.org/support/plugin/spacer-block/reviews' }
 	                        >
 	                            { sprintf( _x( 'Why not leave this plugin a %s review on WordPress.org!', 'upsell', 'spacer-block' ), '⭐⭐⭐⭐⭐' ) }
 	                        </ExternalLink>
