@@ -2,14 +2,14 @@
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # General
+# Horizontal alignment
+# Device visibility
 # Editor
 	## Tabs
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@import url('../public/style.css');
-
 [data-type="mypreview/spacer"] .components-resizable-box__container.is-selected {
     background: #f3f4f5;
 }
@@ -18,6 +18,61 @@
 }
 [data-type="mypreview/spacer"] .components-resizable-box__container .is-dark {
 	color: #FFFFFF;
+}
+
+/*--------------------------------------------------------------
+# Horizontal alignment
+--------------------------------------------------------------*/
+@media (min-width: 80.0625em) {
+	[data-type="mypreview/spacer"] .components-resizable-box__container:not([class*="hrz-align-dk"]) {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media (max-width: 80em) and (min-width: 60.0625em) {
+	[data-type="mypreview/spacer"] .components-resizable-box__container:not([class*="hrz-align-dk"]):not([class*="hrz-align-lp"]) {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media (max-width: 60em) and (max-width: 37.5625em) {
+	[data-type="mypreview/spacer"] .components-resizable-box__container:not([class*="hrz-align-dk"]):not([class*="hrz-align-lp"]):not([class*="hrz-align-tb"]) {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media (max-width: 37.5em) {
+	[data-type="mypreview/spacer"] .components-resizable-box__container:not([class*="hrz-align-"]) {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+/*--------------------------------------------------------------
+# Device visibility
+--------------------------------------------------------------*/
+@media (min-width: 80.0625em) {
+	.hide-dk {
+		display: none;
+	}
+}
+
+@media (max-width: 80em) and (min-width: 60.0625em) {
+	.hide-lp {
+		display: none;
+	}
+}
+
+@media (max-width: 60em) and (min-width: 37.5625em) {
+	.hide-tb {
+		display: none;
+	}
+}
+
+@media (max-width: 37.5em) {
+	.hide-sp {
+		display: none;
+	}
 }
 
 /*--------------------------------------------------------------
