@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# General
+# Animation
+# Editor
+	## Tabs
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+@import url('../public/style.css');
+
+[data-type="mypreview/spacer"] .components-resizable-box__container.is-selected {
+    background: #f3f4f5;
+}
+[data-type="mypreview/spacer"] .components-resizable-box__container .is-light {
+	color: #6B6F81;
+}
+[data-type="mypreview/spacer"] .components-resizable-box__container .is-dark {
+	color: #FFFFFF;
+}
+
+/*--------------------------------------------------------------
+# Editor
+--------------------------------------------------------------*/
+.components-base-control__flex {
+	display: flex;
+	align-items: center;
+}
+.components-base-control--label-block .components-base-control__label {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+## Tabs
+--------------------------------------------------------------*/
+.edit-post-sidebar .components-tab-panel__tabs {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    margin-bottom: 1em;
+}
+.edit-post-sidebar .components-tab-panel__tabs > button {
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+	background-color: transparent;
+	border-style: solid;
+    border-width: 0 0 2px 0;
+	margin: 0;
+    padding-bottom: 5px;
+	outline: 0;
+	cursor: pointer;
+}
+.edit-post-sidebar .components-insp-tabs__active {
+	border-color: #1e9ff2;
+}
+.edit-post-sidebar .components-insp-tabs > .components-tab-panel__tab-content .components-toolbar {
+	border: 0;
+}

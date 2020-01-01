@@ -1,0 +1,171 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Spacer Block\n"
+"POT-Creation-Date: 2020-01-01 17:31+0300\n"
+"PO-Revision-Date: 2020-01-01 17:31+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: spacer-block.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: languages/spacer-block-translations.php:5
+msgctxt "toolbar button"
+msgid "Hide on desktop?"
+msgstr ""
+
+#: languages/spacer-block-translations.php:8
+msgctxt "toolbar button"
+msgid "Hide on laptop?"
+msgstr ""
+
+#: languages/spacer-block-translations.php:11
+msgctxt "toolbar button"
+msgid "Hide on tablet?"
+msgstr ""
+
+#: languages/spacer-block-translations.php:14
+msgctxt "toolbar button"
+msgid "Hide on mobile?"
+msgstr ""
+
+#: languages/spacer-block-translations.php:17
+msgctxt "control label"
+msgid "Width"
+msgstr ""
+
+#: languages/spacer-block-translations.php:20
+msgctxt "control label"
+msgid "Height"
+msgstr ""
+
+#: languages/spacer-block-translations.php:23
+msgctxt "control label"
+msgid "Hide from the view?"
+msgstr ""
+
+#: languages/spacer-block-translations.php:26
+msgctxt "control label"
+msgid "Color Settings"
+msgstr ""
+
+#: languages/spacer-block-translations.php:29
+msgctxt "control label"
+msgid "Aria Label"
+msgstr ""
+
+#: languages/spacer-block-translations.php:32
+msgctxt "panel title"
+msgid "Visibility Settings"
+msgstr ""
+
+#: languages/spacer-block-translations.php:35
+msgctxt "panel title"
+msgid "Alignment Settings"
+msgstr ""
+
+#: languages/spacer-block-translations.php:38
+msgctxt "color label"
+msgid "Background"
+msgstr ""
+
+#: languages/spacer-block-translations.php:41
+msgctxt "control help"
+msgid ""
+"This attribute is used to define a string that labels the current element. "
+"You might use it in cases where a text label is not visible on the screen."
+msgstr ""
+
+#: languages/spacer-block-translations.php:44
+msgctxt "block title"
+msgid "Spacer"
+msgstr ""
+
+#: languages/spacer-block-translations.php:47
+msgctxt "block description"
+msgid ""
+"Provides an easy way to insert blank areas with a customizable height and "
+"width between elements and toggle the visibility of it within the "
+"breakpoints of the grid system."
+msgstr ""
+
+#: languages/spacer-block-translations.php:50
+msgctxt "block keyword"
+msgid "Gap"
+msgstr ""
+
+#: languages/spacer-block-translations.php:53
+msgctxt "block keyword"
+msgid "Empty"
+msgstr ""
+
+#: languages/spacer-block-translations.php:56
+msgctxt "block keyword"
+msgid "Blank"
+msgstr ""
+
+#: languages/spacer-block-translations.php:59
+msgctxt "block category"
+msgid "MyPreview"
+msgstr ""
+
+#: spacer-block.php:107
+msgctxt "clone"
+msgid "Cloning instances of this class is forbidden."
+msgstr ""
+
+#: spacer-block.php:119
+msgctxt "wakeup"
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: spacer-block.php:191
+#, php-format
+msgctxt "plugin link"
+msgid "%sHire Me!%s"
+msgstr ""
+
+#: spacer-block.php:191
+msgctxt "upsell"
+msgid "Looking for help? Hire Me!"
+msgstr ""
+
+#: spacer-block.php:192
+#, php-format
+msgctxt "plugin link"
+msgid "%sSupport%s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Spacer Block"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.mypreview.one"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A customizable Gutenberg editor block used for inserting blank areas between "
+"blocks."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MyPreview"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.upwork.com/o/profiles/users/_~016ad17ad3fc5cce94"
+msgstr ""

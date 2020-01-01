@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: assets/src/admin/components/Controls.jsx:71
+msgctxt "toolbar button"
+msgid "Hide on desktop?"
+msgstr ""
+
+#: assets/src/admin/components/Controls.jsx:77
+msgctxt "toolbar button"
+msgid "Hide on laptop?"
+msgstr ""
+
+#: assets/src/admin/components/Controls.jsx:83
+msgctxt "toolbar button"
+msgid "Hide on tablet?"
+msgstr ""
+
+#: assets/src/admin/components/Controls.jsx:89
+msgctxt "toolbar button"
+msgid "Hide on mobile?"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:147
+msgctxt "control label"
+msgid "Width"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:156
+msgctxt "control label"
+msgid "Height"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:201
+msgctxt "control label"
+msgid "Hide from the view?"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:260
+msgctxt "control label"
+msgid "Color Settings"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:273
+msgctxt "control label"
+msgid "Aria Label"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:166
+msgctxt "panel title"
+msgid "Visibility Settings"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:213
+msgctxt "panel title"
+msgid "Alignment Settings"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:266
+msgctxt "color label"
+msgid "Background"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:274
+msgctxt "control help"
+msgid ""
+"This attribute is used to define a string that labels the current element. "
+"You might use it in cases where a text label is not visible on the screen."
+msgstr ""
+
+#: assets/src/admin/index.jsx:19
+msgctxt "block title"
+msgid "Spacer"
+msgstr ""
+
+#: assets/src/admin/index.jsx:28
+msgctxt "block description"
+msgid ""
+"Provides an easy way to insert blank areas with a customizable height and "
+"width between elements and toggle the visibility of it within the "
+"breakpoints of the grid system."
+msgstr ""
+
+#: assets/src/admin/index.jsx:30
+msgctxt "block keyword"
+msgid "Gap"
+msgstr ""
+
+#: assets/src/admin/index.jsx:31
+msgctxt "block keyword"
+msgid "Empty"
+msgstr ""
+
+#: assets/src/admin/index.jsx:32
+msgctxt "block keyword"
+msgid "Blank"
+msgstr ""
+
+#: assets/src/admin/utils/block-category.js:15
+msgctxt "block category"
+msgid "MyPreview"
+msgstr ""
