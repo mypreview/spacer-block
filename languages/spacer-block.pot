@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Spacer Block\n"
-"POT-Creation-Date: 2020-01-01 17:31+0300\n"
+"POT-Creation-Date: 2020-01-01 17:36+0300\n"
 "PO-Revision-Date: 2020-01-01 17:31+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,103 +22,80 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: languages/spacer-block-translations.php:5
-msgctxt "toolbar button"
-msgid "Hide on desktop?"
-msgstr ""
-
-#: languages/spacer-block-translations.php:8
-msgctxt "toolbar button"
-msgid "Hide on laptop?"
-msgstr ""
-
-#: languages/spacer-block-translations.php:11
-msgctxt "toolbar button"
-msgid "Hide on tablet?"
-msgstr ""
-
-#: languages/spacer-block-translations.php:14
-msgctxt "toolbar button"
-msgid "Hide on mobile?"
-msgstr ""
-
-#: languages/spacer-block-translations.php:17
 msgctxt "control label"
 msgid "Width"
 msgstr ""
 
-#: languages/spacer-block-translations.php:20
+#: languages/spacer-block-translations.php:8
 msgctxt "control label"
 msgid "Height"
 msgstr ""
 
-#: languages/spacer-block-translations.php:23
+#: languages/spacer-block-translations.php:11
 msgctxt "control label"
 msgid "Hide from the view?"
 msgstr ""
 
-#: languages/spacer-block-translations.php:26
+#: languages/spacer-block-translations.php:14
 msgctxt "control label"
 msgid "Color Settings"
 msgstr ""
 
-#: languages/spacer-block-translations.php:29
+#: languages/spacer-block-translations.php:17
 msgctxt "control label"
 msgid "Aria Label"
 msgstr ""
 
-#: languages/spacer-block-translations.php:32
+#: languages/spacer-block-translations.php:20
 msgctxt "panel title"
 msgid "Visibility Settings"
 msgstr ""
 
-#: languages/spacer-block-translations.php:35
+#: languages/spacer-block-translations.php:23
 msgctxt "panel title"
 msgid "Alignment Settings"
 msgstr ""
 
-#: languages/spacer-block-translations.php:38
+#: languages/spacer-block-translations.php:26
+#, php-format
+msgctxt "panel title"
+msgid "Looking for Help? %s"
+msgstr ""
+
+#: languages/spacer-block-translations.php:29
 msgctxt "color label"
 msgid "Background"
 msgstr ""
 
+#: languages/spacer-block-translations.php:32
+msgctxt "upsell"
+msgid ""
+"I am a full-stack developer with over five years of experience in WordPress "
+"theme and plugin development, and would love to have the opportunity to "
+"discuss your project with you."
+msgstr ""
+
+#: languages/spacer-block-translations.php:35
+msgctxt "upsell"
+msgid "Hire Me!"
+msgstr ""
+
+#: languages/spacer-block-translations.php:38
+msgctxt "upsell"
+msgid "Enjoying this block?"
+msgstr ""
+
 #: languages/spacer-block-translations.php:41
+#, php-format
+msgctxt "upsell"
+msgid "Why not leave this plugin a %s review on WordPress.org!"
+msgstr ""
+
+#: languages/spacer-block-translations.php:44
 msgctxt "control help"
 msgid ""
 "This attribute is used to define a string that labels the current element. "
 "You might use it in cases where a text label is not visible on the screen."
-msgstr ""
-
-#: languages/spacer-block-translations.php:44
-msgctxt "block title"
-msgid "Spacer"
-msgstr ""
-
-#: languages/spacer-block-translations.php:47
-msgctxt "block description"
-msgid ""
-"Provides an easy way to insert blank areas with a customizable height and "
-"width between elements and toggle the visibility of it within the "
-"breakpoints of the grid system."
-msgstr ""
-
-#: languages/spacer-block-translations.php:50
-msgctxt "block keyword"
-msgid "Gap"
-msgstr ""
-
-#: languages/spacer-block-translations.php:53
-msgctxt "block keyword"
-msgid "Empty"
-msgstr ""
-
-#: languages/spacer-block-translations.php:56
-msgctxt "block keyword"
-msgid "Blank"
-msgstr ""
-
-#: languages/spacer-block-translations.php:59
-msgctxt "block category"
-msgid "MyPreview"
 msgstr ""
 
 #: spacer-block.php:107
