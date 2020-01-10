@@ -3,52 +3,72 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "X-Generator: babel-plugin-makepot\n"
 
-#: assets/src/admin/components/Inspector.jsx:147
+#: assets/src/admin/components/Controls.jsx:62
+msgctxt "toolbar button"
+msgid "Hide on desktop?"
+msgstr ""
+
+#: assets/src/admin/components/Controls.jsx:68
+msgctxt "toolbar button"
+msgid "Hide on laptop?"
+msgstr ""
+
+#: assets/src/admin/components/Controls.jsx:74
+msgctxt "toolbar button"
+msgid "Hide on tablet?"
+msgstr ""
+
+#: assets/src/admin/components/Controls.jsx:80
+msgctxt "toolbar button"
+msgid "Hide on mobile?"
+msgstr ""
+
+#: assets/src/admin/components/Inspector.jsx:143
 msgctxt "control label"
 msgid "Width"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:156
+#: assets/src/admin/components/Inspector.jsx:152
 msgctxt "control label"
 msgid "Height"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:201
+#: assets/src/admin/components/Inspector.jsx:197
 msgctxt "control label"
 msgid "Hide from the view?"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:260
+#: assets/src/admin/components/Inspector.jsx:256
 msgctxt "control label"
 msgid "Color Settings"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:296
+#: assets/src/admin/components/Inspector.jsx:292
 msgctxt "control label"
 msgid "Aria Label"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:166
+#: assets/src/admin/components/Inspector.jsx:162
 msgctxt "panel title"
 msgid "Visibility Settings"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:213
+#: assets/src/admin/components/Inspector.jsx:209
 msgctxt "panel title"
 msgid "Alignment Settings"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:271
+#: assets/src/admin/components/Inspector.jsx:267
 msgctxt "panel title"
 msgid "Looking for Help? %s"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:266
+#: assets/src/admin/components/Inspector.jsx:262
 msgctxt "color label"
 msgid "Background"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:275
+#: assets/src/admin/components/Inspector.jsx:271
 msgctxt "upsell"
 msgid ""
 "I am a full-stack developer with over five years of experience in WordPress "
@@ -56,22 +76,22 @@ msgid ""
 "discuss your project with you."
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:279
+#: assets/src/admin/components/Inspector.jsx:275
 msgctxt "upsell"
 msgid "Hire Me!"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:284
+#: assets/src/admin/components/Inspector.jsx:280
 msgctxt "upsell"
 msgid "Enjoying this block?"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:289
+#: assets/src/admin/components/Inspector.jsx:285
 msgctxt "upsell"
 msgid "Why not leave this plugin a %s review on WordPress.org!"
 msgstr ""
 
-#: assets/src/admin/components/Inspector.jsx:297
+#: assets/src/admin/components/Inspector.jsx:293
 msgctxt "control help"
 msgid ""
 "This attribute is used to define a string that labels the current element. "
