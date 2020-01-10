@@ -53,22 +53,22 @@ export default class Save extends Component {
                 aria-label={ ariaLabel ? escape( ariaLabel ) : null }
                 className={ classnames(
                     {
+                        [ backgroundColorClass ]: backgroundColorClass,
                         'has-background': backgroundColor || customBackgroundColor,
-                        [ backgroundColorClass ]: backgroundColorClass
-                    },
-                    alignDesktop ? `hrz-align-dk-${ alignDesktop }` : null,
-                    alignLaptop ? `hrz-align-lp-${ alignLaptop }` : null,
-                    alignTablet ? `hrz-align-tb-${ alignTablet }` : null,
-                    alignSmartphone ? `hrz-align-sp-${ alignSmartphone }` : null,
-                    visDesktop ? 'hide-dk' : null,
-                    visLaptop ? 'hide-lp' : null,
-                    visTablet ? 'hide-tb' : null,
-                    visSmartphone ? 'hide-sp' : null
+                        [`hrz-align-dk-${ alignDesktop }`]: alignDesktop,
+                        [`hrz-align-lp-${ alignLaptop }`]: alignLaptop,
+                        [`hrz-align-tb-${ alignTablet }`]: alignTablet,
+                        [`hrz-align-sp-${ alignSmartphone }`]: alignSmartphone,
+                        'hide-dk': !! visDesktop,
+                        'hide-lp': !! visLaptop,
+                        'hide-tb': !! visTablet,
+                        'hide-sp': !! visSmartphone
+                    }
                 ) }
                 style={ { 
                     width,
                     height,
-                    backgroundColor: backgroundColorClass  ?  undefined  :  customBackgroundColor
+                    backgroundColor: backgroundColorClass ? undefined : customBackgroundColor
                 } }
             />
         );

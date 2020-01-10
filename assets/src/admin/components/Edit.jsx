@@ -70,16 +70,19 @@ export default compose( applyWithColors ) ( class Edit extends Component {
 				) }
 				<ResizableBox
 					className={ classnames(
-						{ 'is-selected': isSelected },
-						getLuma ? `is-${ getLuma }` : null,
-						visDesktop ? 'hide-dk' : null,
-	                    visLaptop ? 'hide-lp' : null,
-	                    visTablet ? 'hide-tb' : null,
-	                    visSmartphone ? 'hide-sp' : null,
-	                    alignDesktop ? `hrz-align-dk-${ alignDesktop }` : null,
-	                    alignLaptop ? `hrz-align-lp-${ alignLaptop }` : null,
-	                    alignTablet ? `hrz-align-tb-${ alignTablet }` : null,
-	                    alignSmartphone ? `hrz-align-sp-${ alignSmartphone }` : null
+	                    className,
+                    	{
+                    		'is-selected': isSelected,
+                    		[`is-${ getLuma }`]: getLuma,
+	            			[`hrz-align-dk-${ alignDesktop }`]: alignDesktop,
+		                    [`hrz-align-lp-${ alignLaptop }`]: alignLaptop,
+		                    [`hrz-align-tb-${ alignTablet }`]: alignTablet,
+		                    [`hrz-align-sp-${ alignSmartphone }`]: alignSmartphone,
+							'hide-dk': !! visDesktop,
+		                    'hide-lp': !! visLaptop,
+		                    'hide-tb': !! visTablet,
+		                    'hide-sp': !! visSmartphone
+                    	}
 					) }
 					size={ {
 						width,
