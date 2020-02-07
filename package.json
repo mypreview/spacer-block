@@ -1,16 +1,22 @@
 {
    "name": "spacer-block",
    "title": "Spacer",
+   "description": "A customizable Gutenberg editor block used for inserting blank areas between blocks.",
    "version": "1.0.0",
-   "private": true,
    "author": "MyPreview",
    "author_shop": "https://www.mypreview.one",
    "author_uri": "https://www.upwork.com/o/profiles/users/_~016ad17ad3fc5cce94",
    "requires": "5.2",
    "tested_up_to": "5.3.1",
    "license": "GPL-3.0",
-   "copyright": "© 2015 - 2019 MyPreview. All Rights Reserved.",
-   "description": "A customizable Gutenberg editor block used for inserting blank areas between blocks.",
+   "copyright": "© 2015 - 2020 MyPreview. All Rights Reserved.",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/mypreview/spacer-block.git"
+   },
+   "bugs": {
+      "url": "https://github.com/mypreview/spacer-block/issues"
+   },
    "scripts": {
       "dev": "cross-env BABEL_ENV=default webpack --watch --info-verbosity none",
       "build": "cross-env BABEL_ENV=default NODE_ENV=production webpack",
